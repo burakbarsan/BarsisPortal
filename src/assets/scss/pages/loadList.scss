@@ -1,0 +1,151 @@
+.css-1u9des2-indicatorSeparator{
+     margin-top:0px !important;
+     margin-bottom:0px !important;
+     background-color:#E2E4E9 !important;
+}
+.searchBtn{
+     background-color: #1545B2;
+     width: 100% !important;
+     border:1px solid #1545B2;
+
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months{
+     border:1px solid #fff !important;
+     background-color: #fff !important;
+     color:#525866 !important;
+     margin-right: 18px;
+     font-size: 15px;
+}
+.flatpickr-current-month input.cur-year{
+     border:1px solid #fff !important;
+     background-color: #fff !important;
+     color:#525866 !important; 
+     font-size: 15px;
+
+}
+.prevMonthDa{
+     color:#CDD0D5 !important;
+}
+.inRange{
+     background-color: #E6E9F7 !important;
+}
+.nextMonthDay{
+     color: #E6E9F7 !important;
+}
+.flatpickr-day.selected.startRange, .flatpickr-day.startRange.startRange, .flatpickr-day.endRange.startRange{
+     color:white !important;
+     border-radius: 0px !important;
+}
+.flatpickr-day.selected.endRange, .flatpickr-day.startRange.endRange, .flatpickr-day.endRange.endRange{
+     color:white !important;
+     border-radius: 0px !important;
+}
+.flatpickr-day{
+     color:#001F87 ;
+}
+.menu-list-1{
+     cursor: pointer;
+     display: inline-block;
+     margin-right: 20px;
+     color:#525866 !important;
+     font-family: 'Lexend' !important;
+     font-weight: 400 !important;
+     font-size:15px !important;
+     line-height: 21px !important;
+}
+.downIcon{
+     display: flex;
+     justify-content: end;
+     margin-right: 20px;
+     margin-top: -14px;
+}
+.menu-list-1:hover{
+     cursor: pointer;
+     display: inline-block;
+     margin-right: 20px;
+     color:#001F87 !important;
+     font-family: 'Lexend' !important;
+     font-weight: 400 !important;
+     font-size:15px !important;
+     line-height: 21px !important;
+}
+.menu-list-2{
+     cursor: pointer;
+     display: inline-block;
+     margin-right: 20px;
+     color:#525866 !important;
+     font-family: 'Lexend' !important;
+     font-weight: 400 !important;
+     font-size:15px !important;
+     line-height: 21px !important;
+}
+.menu-list-2:hover{
+     cursor: pointer;
+     display: inline-block;
+     margin-right: 20px;
+     color:#001F87 !important;
+     font-family: 'Lexend' !important;
+     font-weight: 400 !important;
+     font-size:15px !important;
+     line-height: 21px !important;
+}
+.menuContainer{
+     background-color: #E6E9F7 !important;
+     height: 37px;
+     padding-left: 25px;
+     display: flex;
+     align-items: center;
+}
+.flatpickr-months .flatpickr-prev-month, .flatpickr-months .flatpickr-next-month{
+     color:#0A0D14 !important;
+     fill: #0A0D14 !important;
+}
+.flatpickr-months{
+     background-color: #E6E9F7 !important;
+}
+.flatpickr-weekdays{
+     background-color: #E6E9F7 !important;
+}
+span.flatpickr-weekday{
+     background-color: #E6E9F7 !important;
+     color:#525866 !important;
+}
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover>td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover>tr>td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused)>td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused)>tr>td{
+     background-color: #fff !important;
+}
+.searchBtnDivS{
+     width: 100%;
+}
+.searchBtn:hover{
+     background-color:#E6E9F7 !important;
+     border:1px solid #E6E9F7 !important;
+     color:#0A0D14 !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+     font-size: 1.1rem !important;
+     margin-right: 3px;
+}
+.searchBtnDiv{
+
+display: flex;
+justify-content: flex-start;
+align-items: end;
+width: 100%;
+
+}
+.shipment-list {
+     padding:0px;
+}
+.shipment-list-second {
+     padding:0px 0px 30px 0px;
+}
+.headerSticky{
+     margin-left:10px;
+     padding: 0px;
+}
+.headerDiv{
+     position: sticky; 
+     top: 71px;
+     z-index: 999;
+ margin-bottom: 20px;
+}

@@ -1,0 +1,95 @@
+.border-bottom-zero {
+  border-bottom: 0px !important;
+}
+
+.form-control {
+  height: 38px !important;
+  border-radius: 4px;
+  border-color: #e9ebec !important;
+}
+
+.textarea-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--vz-body-color);
+  appearance: none;
+  background-color: var(--vz-input-bg-custom);
+  background-clip: padding-box;
+  border-radius: 4px;
+  border-color: #e9ebec !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  background-color: #e6e9f7;
+}
+
+.icon-size {
+  font-size: medium;
+}
+.icon-size-l {
+  font-size: large;
+}
+
+.dropdown-button {
+  border-radius: 0px 4px 4px 0px !important;
+  height: 38px;
+  padding: 0px 5px 0px 5px;
+}
+
+
+.space-between{
+  justify-content: space-between;
+}
+
+.margin-right{
+  margin-right: 10px;
+}
+
+.form-label{
+  font-weight: 400;
+  font-size: 12.25px;
+  color: #0A0D14;
+}
+
+.input-text-style-disabled{
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #E2E4E9 !important;
+}
+
+.input-text-style-disabled::placeholder{
+  color: #CDD0D5;
+}
+
+.input-text-style{
+  font-weight: 400;
+  font-size: 15px;
+  color: #868C98;
+}
+.input-text-style::placeholder{
+  color: #868C98;
+}
+
+
+.button-text-style{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.hawb-button{
+  color:#1545B2;
+  border-color: #1545B2;
+}
+
+.padding-right-s{
+  padding-right: 4px;
+}

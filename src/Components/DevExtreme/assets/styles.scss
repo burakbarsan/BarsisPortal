@@ -1,0 +1,250 @@
+.options {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+    position: relative;
+  }
+  
+  .caption {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .option {
+    margin-top: 10px;
+  }
+  
+  .checkboxes-mode {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    padding:0px !important;
+    color:#1545B2 !important;
+  }
+
+.dx-submenu {
+  position: absolute !important;
+  top: calc(100% + 20px) !important;
+  margin-left: -25px !important;
+  background-color: white !important;
+
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  z-index: 1000 !important;
+
+}
+.dx-menu-item-wrapper {
+  padding: 2px 0px !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  color:#0A0D14 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:15px !important;
+  line-height: 21px !important;
+}
+
+.dx-menu-item-wrapper::before {
+  content: "" !important; 
+  position: absolute !important;
+  top: -26px !important;
+  left: -2% !important; 
+
+  transform: translateX(-0%) !important; 
+height: 48px;
+    width: 100%;
+    background-image: url('../../../assets/images/svg/arr.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+  .css-i4bv87-MuiSvgIcon-root{
+    font-size: 25px !important;
+  }
+  .option > .dx-selectbox {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .dx-row td:nth-child(2){
+    border-left:0px !important;
+  }
+  .dx-row td:nth-child(2) div{
+   margin-left: -8px;
+  }
+  .option > span {
+    margin-right: 10px;
+  }
+  .custom-button {
+    background-color: red !important;
+    border: none !important;
+    cursor: pointer !important;
+  }
+  
+  .dot {
+    height: 6px;
+    width: 6px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+  }
+  .dx-datagrid-table .dx-command-select{
+  border:0px !important;
+ }
+ .dx-command-edit {
+  border:0px !important;
+ }
+ .dx-toolbar-after {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.dx-toolbar .dx-toolbar-after{
+  left:0 !important;
+  padding-inline-start: 0px !important;
+}
+.dx-toolbar-button:nth-child(1) {
+  order: 3 !important; /* Add Button */
+}
+
+.dx-toolbar-button:nth-child(2) {
+  order: 1 !important; /* Export Panel */
+}
+
+.dx-toolbar-button:nth-child(3) {
+  order: 2 !important; /* Search Button */
+  margin-right: 20px;
+}
+.dx-toolbar-item:nth-child(2) .dx-button-content {
+  background-image: url('../../../assets/images/svg/Buttons.svg') !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 34px;
+    height: 34px;
+}
+.dx-toolbar-item:nth-child(2) .dx-button-mode-contained.dx-buttongroup-last-item.dx-button, .dx-button-mode-outlined.dx-buttongroup-last-item.dx-button{
+  border:none !important;
+}
+.dx-toolbar-item:nth-child(2) i {
+  display: none !important;
+}
+.dx-toolbar-button:nth-child(1) .dx-icon{
+width: 14px !important;
+height: 14px !important;
+color: #1E5C13;
+}
+.dx-toolbar-button:nth-child(3) .dx-texteditor-input{
+  min-height: 29px !important;
+  padding:5px !important;
+  margin-left:29px;
+  border-left:0px !important;
+  border-radius: 0px !important;
+}
+.dx-show-clear-button .dx-icon-clear{
+  border-left: 1px solid #E2E4E9 !important;
+  border-radius: 0px !important;
+}
+.dx-button-mode-contained{
+color: #1E5C13 !important;
+border:1px solid #1E5C13 !important;
+}
+.dx-datagrid-headers .dx-datagrid-table .dx-row>td{
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.dx-text-content-alignment-left{
+  color:#0A0D14 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:15px !important;
+  line-height: 21px !important;
+}
+.dx-datagrid-content .dx-datagrid-table .dx-row>td, .dx-datagrid-content .dx-datagrid-table .dx-row>tr>td{
+  color:#0A0D14 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:15px !important;
+  line-height: 34px !important;
+  vertical-align: middle !important;
+}
+.dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row .dx-command-edit-with-icons .dx-link{
+  color:#1545B2 !important;
+  font-size:23px !important;
+  margin:12px 0px !important;
+}
+.dx-column-lines td:nth-child(1){
+  width: 40px !important;
+  max-width: 40px !important;
+  min-width: 40px !important;
+}
+.dx-datagrid-borders>.dx-datagrid-filter-panel, .dx-datagrid-borders>.dx-datagrid-headers{
+  border-bottom:1px solid #E2E4E9 !important;
+  border-top: 1px solid #E2E4E9 !important;
+}
+.dx-datagrid-borders .dx-datagrid-rowsview, .dx-datagrid-headers+.dx-datagrid-rowsview, .dx-datagrid-rowsview.dx-datagrid-after-headers{
+  border-top: 1px solid #E2E4E9 !important;
+}
+.dx-datagrid-borders>.dx-datagrid-rowsview, .dx-datagrid-borders>.dx-datagrid-total-footer{
+  border-bottom:1px solid #E2E4E9 !important;
+}
+.dx-datagrid-borders>.dx-datagrid-headers, .dx-datagrid-borders>.dx-datagrid-rowsview, .dx-datagrid-borders>.dx-datagrid-total-footer{
+  border-right:1px solid #E2E4E9 !important;
+  border-left: 1px solid #E2E4E9 !important;
+}
+.dx-datagrid .dx-column-lines>td{
+  border-right:1px solid #E2E4E9;
+  border-left: 1px solid #E2E4E9;
+}
+.dx-placeholder::before{
+  color:#868c98 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:13px !important;
+  line-height: 18px !important;
+  outline: none !important;
+
+}
+.dx-widget input, .dx-widget textarea{
+  color:#0A0D14 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:15px !important;
+  line-height: 21px !important;
+}
+.dx-datagrid .dx-column-indicators{
+  margin-top: 3px !important;
+}
+.dx-datagrid-rowsview .dx-row{
+  border-bottom:1px solid #E2E4E9 !important;
+}
+.dx-header-row>td>.dx-datagrid-text-content{
+  vertical-align: middle !important;
+}
+.dx-item-content{
+  color:#0A0D14 !important;
+  font-family: 'Lexend' !important;
+  font-weight: 400 !important;
+  font-size:14px !important;
+  line-height: 18px !important;
+  outline: none !important;
+}
+.dx-searchbox .dx-icon-search{
+  color:#868c98 !important;
+  font-weight: 400 !important;
+  font-size:13px !important;
+  line-height: 18px !important;
+  outline: none !important;
+
+}
+.dx-datagrid-headers{
+  border-bottom:1px solid #E2E4E9 !important;
+}
+.dx-datagrid-header-panel{
+  margin-left: -5px !important;;
+}
+.dx-datagrid .dx-row-alt>td, .dx-datagrid .dx-row-alt>tr>td{
+  background-color: #fff !important;
+}

@@ -1,0 +1,84 @@
+.version-btn{
+    background-color: #fff;
+    border:1px solid #001F87;
+    border-radius:5px;
+    margin-left:5px;
+    margin-right:5px;
+    padding:5px;
+    color:#001F87;
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.version-btn:hover{
+   
+    border:1px solid #001F87;
+ 
+}
+.version-btn-lg{
+    background-color: #fff;
+    border:1px solid #001F87;
+    border-radius:5px;
+    margin-left:5px;
+    width: 100%;
+    margin-right:5px;
+    padding:5px;
+    color:#001F87;
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.version-btn-lg:hover{
+   
+    border:1px solid #001F87;
+ 
+}
+.selectedYear{
+
+    color:#2B2B2B;
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.drpdown-btn{
+    border-top:1px solid #E6E9F7;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #E6E9F7;
+}
+.drpdown-btn-lg{
+    border-top:1px solid #E6E9F7;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color: #E6E9F7;
+margin-right: 11px;
+
+}
+.btn-lg-version .drpdown-btn{
+    text-align: left;
+}
+
+.ri-apps-line{
+    font-size:15px;
+}
+:is([data-layout=vertical], [data-layout=semibox])[data-sidebar-size=sm]{
+    .btn-lg-version {
+        display: none;
+    }
+    .btn-sm-version {
+        display: block;
+    }
+}
+:is([data-layout=vertical], [data-layout=semibox])[data-sidebar-size=lg]{
+    .btn-sm-version {
+        display: none;
+    }
+    .btn-lg-version {
+        display: block;
+        margin-top:-120px;
+    }
+}
+
